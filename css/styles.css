@@ -1,0 +1,69 @@
+:root {
+  /* білий колір і задивка стор #ffffff */
+  --white-kolor: #ffffff;
+
+  /* колір основного тексту  #2E2F42 */
+  --title-text-color: #2e2f42;
+
+  /* колір другорядного тексту #434455 */
+  --secondary-text-color: #434455;
+
+  /* синя кнопка і веб #4D5AE5 */
+  --button-and-web: #4d5ae5;
+}
+
+/* ul {
+  list-style: none;
+} */
+body {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+}
+/*  хедер логотип */
+.web {
+  color: var(--button-and-web);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.webs {
+  color: var(--title-text-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17x;
+  letter-spacing: 0.03em;
+}
+/* хедер навігація і авторизація */
+.nav-logo {
+  text-decoration: none;
+}
+.nav-list a {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.auth-list a {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav a:hover,
+.nav a:focus {
+}
