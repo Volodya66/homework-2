@@ -84,7 +84,7 @@ body {
 .auth-list a:focus {
   color: var(--hover-focus);
 }
-/* hero */
+/* section1 */
 .hero {
   background-color: var(--title-text-color);
 }
@@ -103,6 +103,7 @@ body {
   color: var(--white-kolor);
   background-color: var(--button-and-web);
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -112,7 +113,7 @@ body {
 .hero-button:focus {
   background-color: #404bbf;
 }
-/* section1 */
+/* section2 */
 .aspects-name {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
@@ -132,7 +133,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* section2  */
+/* section3  */
 .about-name {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
@@ -144,7 +145,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
-/* section3 */
+/* section4 */
 .team {
   background-color: #f4f4fd;
 }
@@ -181,12 +182,14 @@ body {
 footer a {
   text-decoration: none;
 }
-footer {
+.footer {
   background-color: #2e2f42;
 }
 .footerweb {
   color: var(--button-and-web);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -195,12 +198,6 @@ footer {
 }
 .footerwebs {
   color: var(--color-studio);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 footer p {
