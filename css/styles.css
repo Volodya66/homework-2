@@ -70,6 +70,10 @@ body {
   color: #404bbf;
 }
 
+.auth {
+  font-style: normal;
+}
+
 .auth-list a {
   color: var(--secondary-text-color);
   text-decoration: none;
