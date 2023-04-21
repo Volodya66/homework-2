@@ -25,6 +25,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.link {
+  text-decoration: none;
+}
 .list {
   list-style: none;
 }
@@ -32,6 +35,7 @@ body {
 .nav-logo {
   color: var(--button-and-web);
   font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -49,9 +53,7 @@ body {
   letter-spacing: 0.03em;
 }
 /* хедер навігація і авторизація */
-.nav-logo {
-  text-decoration: none;
-}
+
 .nav-list a {
   color: var(--title-text-color);
   text-decoration: none;
@@ -160,6 +162,9 @@ body {
 /* footer */
 footer a {
   text-decoration: none;
+}
+footer {
+  background-color: #2e2f42;
 }
 .footerweb {
   color: var(--button-and-web);
