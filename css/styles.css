@@ -24,10 +24,14 @@ body {
   color: var(--secondary-text-color);
   font-family: "Roboto", sans-serif;
 }
+
+.list {
+  list-style: none;
+}
 /*  хедер логотип */
 .nav-logo {
   color: var(--button-and-web);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -37,7 +41,7 @@ body {
 
 .web {
   color: var(--title-text-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -51,7 +55,7 @@ body {
 .nav-list a {
   color: var(--title-text-color);
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -62,7 +66,7 @@ body {
 .auth-list a {
   color: var(--secondary-text-color);
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -75,11 +79,11 @@ body {
 }
 /* hero */
 .hero {
-  background: var(--title-text-color);
+  background-color: var(--title-text-color);
 }
 .hero-name {
   color: var(--white-kolor);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -90,12 +94,12 @@ body {
 }
 .hero-button {
   color: var(--white-kolor);
-  background: var(--button-and-web);
+  background-color: var(--button-and-web);
 }
 /* section1 */
 .aspects-name {
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -105,7 +109,7 @@ body {
 
 .aspect-text {
   color: var(--secondary-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -115,7 +119,7 @@ body {
 /* section2  */
 .about-name {
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -124,11 +128,11 @@ body {
 }
 /* section3 */
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team-name {
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -137,7 +141,7 @@ body {
 }
 .team-list h3 {
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -146,7 +150,7 @@ body {
 }
 .team-list p {
   color: var(--secondary-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -178,7 +182,7 @@ footer a {
 
 footer p {
   color: var(--color-studio);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -189,14 +193,34 @@ footer p {
 /* page portfolio */
 /* 1 lict */
 .filters-button {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
 }
 
 .filters-button:hover,
 .filters-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   color: #e7e9fc;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .filtreslist h2 {
