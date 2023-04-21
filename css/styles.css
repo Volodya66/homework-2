@@ -2,14 +2,14 @@
   /* білий колір і задивка стор #ffffff */
   --white-kolor: #ffffff;
 
-  /* колір основного тексту  #2E2F42 */
+  /* колір основного тексту і заливка  #2E2F42 */
   --title-text-color: #2e2f42;
 
   /* колір другорядного тексту #434455 */
   --secondary-text-color: #434455;
 
   /* синя кнопка і веб IRIS color #4D5AE5 */
-  --iris-web: #404bbf;
+  --iris-web: #4d5ae5;
   /* hover and focus */
   --hover-focus: #404bbf;
   /* colors footer studio  #F4F4FD;*/
@@ -75,4 +75,38 @@ body {
 .auth:focus,
 .auth:hover {
   color: var(--hover-focus);
+}
+/* section1 (hero) */
+
+.hero {
+  background-color: var(--title-text-color);
+}
+
+.hero-name {
+  color: var(--white-kolor);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  background-color: var(--iris-web);
+  color: var(--white-kolor);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--hover-focus);
 }
