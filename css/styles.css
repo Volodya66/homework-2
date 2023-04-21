@@ -82,7 +82,7 @@ body {
 }
 .auth-list a:hover,
 .auth-list a:focus {
-  color: var(--hover-focus);
+  color: #404bbf;
 }
 /* section1 */
 .hero {
