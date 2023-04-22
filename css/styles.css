@@ -91,10 +91,10 @@ body {
 .hero-button {
   background-color: var(--iris-web);
   color: var(--white-kolor);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -196,11 +196,11 @@ body {
 .filters-button {
   background-color: var(--color-text-p);
   color: var(--iris-web);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
