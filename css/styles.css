@@ -34,7 +34,6 @@ body {
 .logo {
   color: var(--iris-web);
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -171,6 +170,7 @@ body {
 }
 .footer-logo {
   color: var(--iris-web);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
